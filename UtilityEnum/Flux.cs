@@ -2,7 +2,12 @@
 
 namespace UtilityEnum
 {
-    public class Class1
+public enum Flux
     {
+        Dynamic,
+        Static
+
     }
+
+
 }
