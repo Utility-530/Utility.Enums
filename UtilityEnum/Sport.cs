@@ -9,6 +9,8 @@ namespace UtilityEnum
     {
         [Description("Football")]
         Football,
+        [Description("Soccer")]
+        Soccer,
         [Description("Basketball")]
         Basketball,
         [Description("Tennis")]
@@ -21,6 +23,8 @@ namespace UtilityEnum
         Rugby,
         [Description("American Football")]
         AmericanFootball
+
+
 
     }
 }

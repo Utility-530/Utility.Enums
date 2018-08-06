@@ -2,29 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace UtilityEnum
+
+
+namespace UtilityEnum.Betting
 {
-    public enum SportsBettingContract
-    {
-        None,
-        Home,
-        Draw,
-        Away,
-        Under,
-        Over,
-        AsianHome,
-        AsianAway
-    }
-
-
-    public enum SportsBettingMarket
-    {
-        //[Description("winner")]
-        Winner
-    }
-
-
-    public enum OddSide { None = 0, Back = 1, Lay = 2 }
+    public enum Side { None = 0, Back = 1, Lay = 2 }
 
 
 }
