@@ -12,14 +12,14 @@ namespace UtilityEnum.SportsBetting
         Away,
         Under,
         Over,
-        AsianHome,
-        AsianAway
+        Yes,
+        No
     }
 
 
     public enum Market
     {
         //[Description("winner")]
-        Winner
+        Win
     }
 }
