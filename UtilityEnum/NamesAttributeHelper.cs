@@ -22,7 +22,7 @@ namespace UtilityEnum
                 if (attribute != null)
                 {
 
-                    if (attribute.Names.Contains(name, stringcomparison))
+                    if (attribute.Names.Concat(new[] { field.Name }).Contains(name, stringcomparison))
                         return (T)field.GetValue(null);
                  }
                 //else

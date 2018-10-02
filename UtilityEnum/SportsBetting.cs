@@ -19,7 +19,16 @@ namespace UtilityEnum.SportsBetting
 
     public enum Market
     {
-        //[Description("winner")]
-        Win
+        FullTimeResult,
+
+        OverUnder,
+
+        AsianHandicap,
+
+        DoubleChance,
+
+        DrawNoBet,
+
+        BTTS
     }
 }

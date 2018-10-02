@@ -4,9 +4,8 @@ using System.Text;
 
 namespace UtilityEnum
 {
-
-    public enum Side
+    public enum RadialMovement
     {
-        Left, Right, Top,Bottom,Front,Back
+    Clockwise,AntiClockwise
     }
 }

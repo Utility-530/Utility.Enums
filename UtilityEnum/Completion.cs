@@ -4,7 +4,7 @@ using System.Text;
 
 namespace UtilityEnum.Time
 {
-    public enum Status
+    public enum Compeletion
     {
         NotStarted,
         Running,
@@ -12,10 +12,5 @@ namespace UtilityEnum.Time
 
     }
 
-    public enum State
-    {
-        Past,
-        Present,
-        Future
-    }
+
 }

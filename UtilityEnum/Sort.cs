@@ -4,9 +4,9 @@ using System.Text;
 
 namespace UtilityEnum
 {
-
-    public enum Side
+    public enum Sort
     {
-        Left, Right, Top,Bottom,Front,Back
+        Ascension,
+        Descension
     }
 }

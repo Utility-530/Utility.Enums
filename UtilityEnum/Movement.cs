@@ -4,9 +4,7 @@ using System.Text;
 
 namespace UtilityEnum
 {
-
-    public enum Side
+    public enum Movement
     {
-        Left, Right, Top,Bottom,Front,Back
     }
 }

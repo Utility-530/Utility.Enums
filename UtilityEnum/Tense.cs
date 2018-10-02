@@ -4,9 +4,10 @@ using System.Text;
 
 namespace UtilityEnum
 {
-
-    public enum Side
+    public enum Tense
     {
-        Left, Right, Top,Bottom,Front,Back
+        Past,
+        Present,
+        Future
     }
 }
