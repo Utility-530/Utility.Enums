@@ -4,7 +4,7 @@ using System.Text;
 
 namespace UtilityEnum
 {
-    public enum RadialMovement
+    public enum RadialDirection
     {
     Clockwise,AntiClockwise
     }

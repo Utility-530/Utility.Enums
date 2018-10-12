@@ -4,7 +4,13 @@ using System.Text;
 
 namespace UtilityEnum
 {
-    public enum Movement
+    public enum Debug
     {
+
+        Debug,
+        Info,
+        Warning,
+        Error,
+        Fatal
     }
 }
