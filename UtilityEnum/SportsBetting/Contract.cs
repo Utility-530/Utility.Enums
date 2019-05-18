@@ -4,6 +4,7 @@ using System.Text;
 
 namespace UtilityEnum.SportsBetting
 {
+
     public enum Contract
     {
         None,
@@ -17,18 +18,4 @@ namespace UtilityEnum.SportsBetting
     }
 
 
-    public enum Market
-    {
-        FullTimeResult,
-
-        OverUnder,
-
-        AsianHandicap,
-
-        DoubleChance,
-
-        DrawNoBet,
-
-        BTTS
-    }
 }
