@@ -4,7 +4,7 @@ using System.Text;
 
 namespace UtilityEnum
 {
-    public enum RadialDirection
+    public enum RadialDirection : byte
     {
     Clockwise,AntiClockwise
     }

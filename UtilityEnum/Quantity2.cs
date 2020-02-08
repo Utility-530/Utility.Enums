@@ -4,8 +4,10 @@ using System.Text;
 
 namespace UtilityEnum
 {
-    public enum Speed : byte
+
+    public enum Quantity2 : byte
     {
-        Slow,Medium,Fast
+        Single, Multi
+
     }
 }

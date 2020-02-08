@@ -4,7 +4,7 @@ using System.Text;
 
 namespace UtilityEnum
 {
-    public enum Debug
+    public enum Debug : byte
     {
 
         Debug,

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace UtilityEnum
 {
-    public enum Sport
+    public enum Sport : byte
     {
         [Description("Football")]
         Football,

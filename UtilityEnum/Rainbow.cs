@@ -1,4 +1,4 @@
-public enum Rainbow
+public enum Rainbow : byte
 {
     Red,
     Orange,

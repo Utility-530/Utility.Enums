@@ -6,7 +6,7 @@ namespace UtilityEnum
 {
     //https://en.wikipedia.org/wiki/Relative_direction
     // relative direction
-    public enum Direction
+    public enum Direction : byte
     {
         Left, Right, Forward, Backward, Up, Down
     }

@@ -4,8 +4,11 @@ using System.Text;
 
 namespace UtilityEnum
 {
-    public enum Speed : byte
+    public enum Orientation : byte
     {
-        Slow,Medium,Fast
+        Default,
+        Horizontal,
+        Vertical
+
     }
 }

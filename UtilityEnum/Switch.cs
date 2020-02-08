@@ -4,7 +4,7 @@ using System.Text;
 
 namespace UtilityEnum
 {
-    public enum Switch
+    public enum Switch : byte
     {
         On,Off
     }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace UtilityEnum
 {
-    public enum Scale
+    public enum Scale : byte
     {
     Low,Medium,High
     }

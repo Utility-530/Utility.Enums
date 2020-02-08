@@ -1,5 +1,5 @@
 ﻿
 namespace UtilityEnum
 {
-    public enum Quality {Poor,Fair,Good,Excellent }
+    public enum Quality : byte { Poor,Fair,Good,Excellent }
 }

@@ -2,7 +2,7 @@
 
 namespace UtilityEnum
 {
-public enum Flux
+public enum Flux : byte
     {
         Dynamic,
         Static

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace UtilityEnum
 {
-    public enum Tense
+    public enum Tense : byte
     {
         Past,
         Present,

@@ -4,13 +4,10 @@ using System.Text;
 
 namespace UtilityEnum
 {
-    public enum Quantity
+    public enum Quantity : byte
     {
         Few, Average, Many
     }
-    public enum Quantity2
-    {
-        Single, Multi
-    }
+
 
 }

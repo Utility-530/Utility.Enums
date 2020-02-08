@@ -5,7 +5,7 @@ using System.Text;
 namespace UtilityEnum.Database
 {
 
-    public enum Operation
+    public enum Operation : byte
     {
 
         Add,

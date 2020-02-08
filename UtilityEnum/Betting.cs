@@ -6,7 +6,7 @@ using System.Text;
 
 namespace UtilityEnum.Betting
 {
-    public enum Side { None = 0, Back = 1, Lay = 2 }
+    public enum Side : byte { None = 0, Back = 1, Lay = 2 }
 
 
 }

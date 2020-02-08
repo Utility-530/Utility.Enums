@@ -5,7 +5,7 @@ using System.Text;
 namespace UtilityEnum
 {
     //https://en.wikipedia.org/wiki/Process_state
-    public enum  ProcessState
+    public enum  ProcessState : byte
     {
         
      Created,

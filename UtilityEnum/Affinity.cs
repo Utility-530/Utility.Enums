@@ -4,7 +4,7 @@ using System.Text;
 
 namespace UtilityEnum
 {
-    public enum Affinity
+    public enum Affinity : byte
     {
         Attraction, Repulsion
     }

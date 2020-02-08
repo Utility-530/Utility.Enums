@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtilityEnum", "UtilityEnum\UtilityEnum.csproj", "{0D0B1364-D916-40C7-AF22-E0001B23D9B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilityEnum.Test", "UtilityEnum.Test\UtilityEnum.Test.csproj", "{9FF7A1D3-1851-4B80-8419-14AEB6C52AF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtilityEnum.Test", "UtilityEnum.Test\UtilityEnum.Test.csproj", "{9FF7A1D3-1851-4B80-8419-14AEB6C52AF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilityEnum.App", "UtilityEnum.App\UtilityEnum.App.csproj", "{2E298923-C303-45C9-9BE3-5355B43076DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{9FF7A1D3-1851-4B80-8419-14AEB6C52AF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FF7A1D3-1851-4B80-8419-14AEB6C52AF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FF7A1D3-1851-4B80-8419-14AEB6C52AF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E298923-C303-45C9-9BE3-5355B43076DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E298923-C303-45C9-9BE3-5355B43076DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E298923-C303-45C9-9BE3-5355B43076DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E298923-C303-45C9-9BE3-5355B43076DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

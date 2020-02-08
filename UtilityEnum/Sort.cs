@@ -4,7 +4,7 @@ using System.Text;
 
 namespace UtilityEnum
 {
-    public enum Sort
+    public enum Sort : byte
     {
         Ascension,
         Descension

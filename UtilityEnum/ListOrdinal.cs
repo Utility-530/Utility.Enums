@@ -9,5 +9,5 @@ namespace UtilityEnum
     /// <summary>
     ///  the positions on item in an array
     /// </summary>
-    public enum ListOrdinal { First = 0, Second = 1, Third = 2 }
+    public enum ListOrdinal : byte { First = 0, Second = 1, Third = 2 }
 }
