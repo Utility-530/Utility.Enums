@@ -6,7 +6,10 @@ namespace UtilityEnum
 {
     public enum Quantity : byte
     {
-        Few, Average, Many
+        None,
+        Few,
+        Average,
+        Many
     }
 
 

@@ -7,6 +7,7 @@ namespace UtilityEnum
 {
     public enum Sport : byte
     {
+        None,
         [Description("Football")]
         Football,
         [Description("Soccer")]

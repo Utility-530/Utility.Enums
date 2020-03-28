@@ -10,6 +10,7 @@ namespace UtilityEnum
     /// </summary>
     public enum Emotion : byte
     {
+        None,
         Fear,// → feeling of being afraid, frightened, scared.
         Anger,// → feeling angry.A stronger word for anger is rage
         Sadness,// → feeling sad. Other words are sorrow, grief (a stronger feeling, for example when someone has died)

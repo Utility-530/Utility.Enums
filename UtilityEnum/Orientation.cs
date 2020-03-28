@@ -6,7 +6,7 @@ namespace UtilityEnum
 {
     public enum Orientation : byte
     {
-        Default,
+        None,
         Horizontal,
         Vertical
 

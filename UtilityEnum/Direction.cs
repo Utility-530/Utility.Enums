@@ -8,6 +8,7 @@ namespace UtilityEnum
     // relative direction
     public enum Direction : byte
     {
+        None,
         Left, Right, Forward, Backward, Up, Down
     }
 

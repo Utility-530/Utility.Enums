@@ -7,7 +7,7 @@ namespace UtilityEnum
     //https://en.wikipedia.org/wiki/Process_state
     public enum  ProcessState : byte
     {
-        
+        None,
      Created,
      Ready,
      Running,

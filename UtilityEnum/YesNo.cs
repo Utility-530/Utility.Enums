@@ -6,7 +6,7 @@ namespace UtilityEnum
 {
     public enum YesNo:byte
     {
-         Maybe,
+        Maybe,
              Yes,
             No
     }

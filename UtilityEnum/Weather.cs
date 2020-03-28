@@ -9,7 +9,7 @@ namespace UtilityEnum
     /// </summary>
     public enum Weather : byte
     {
-
+        None,
         Rainy,
         Stormy,
         Sunny,

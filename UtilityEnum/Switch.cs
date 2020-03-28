@@ -6,6 +6,7 @@ namespace UtilityEnum
 {
     public enum Switch : byte
     {
+        None,
         On,Off
     }
 }

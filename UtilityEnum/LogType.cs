@@ -4,9 +4,9 @@ using System.Text;
 
 namespace UtilityEnum
 {
-    public enum Debug : byte
+    public enum LogType : byte
     {
-
+        None,
         Debug,
         Info,
         Warning,

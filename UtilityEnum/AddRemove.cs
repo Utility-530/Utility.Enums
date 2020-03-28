@@ -7,6 +7,7 @@ namespace UtilityEnum
 
     public enum AddRemove : byte
     {
+        None,
         Add, Remove
     }
 }

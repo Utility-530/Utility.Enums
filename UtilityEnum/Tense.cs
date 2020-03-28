@@ -6,6 +6,7 @@ namespace UtilityEnum
 {
     public enum Tense : byte
     {
+        None,
         Past,
         Present,
         Future

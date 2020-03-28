@@ -5,6 +5,6 @@ using System.Text;
 namespace UtilityEnum
 {
 
-        public enum Execution : byte { NotAttempted, Failure, Success, TooLate }
+        public enum Execution : byte { None, NotAttempted, Failure, Success, TooLate }
     
 }

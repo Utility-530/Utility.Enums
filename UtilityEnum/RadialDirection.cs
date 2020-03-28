@@ -6,6 +6,7 @@ namespace UtilityEnum
 {
     public enum RadialDirection : byte
     {
-    Clockwise,AntiClockwise
+        None,
+        Clockwise,AntiClockwise
     }
 }

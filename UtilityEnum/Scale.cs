@@ -6,6 +6,7 @@ namespace UtilityEnum
 {
     public enum Scale : byte
     {
-    Low,Medium,High
+        None,
+        Low,Medium,High
     }
 }

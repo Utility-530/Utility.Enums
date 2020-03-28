@@ -6,8 +6,10 @@ namespace UtilityEnum
 {
     public enum DataType
     {
+        None,
         Json,
-        Xml
+        Xml,
+        ProtoBuf
     }
     
 }

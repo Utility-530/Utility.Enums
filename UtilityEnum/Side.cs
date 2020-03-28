@@ -7,6 +7,7 @@ namespace UtilityEnum
 
     public enum Side : byte
     {
+        None,
         Left, Right, Top,Bottom,Front,Back
     }
 }

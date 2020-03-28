@@ -7,6 +7,7 @@ namespace UtilityEnum
 
     public enum Quantity2 : byte
     {
+        None,
         Single, Multi
 
     }

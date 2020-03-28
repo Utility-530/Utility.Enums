@@ -6,6 +6,7 @@ namespace UtilityEnum
 {
     public enum Sort : byte
     {
+        None,
         Ascension,
         Descension
     }

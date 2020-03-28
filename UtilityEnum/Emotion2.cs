@@ -10,7 +10,7 @@ namespace UtilityEnum
     /// </summary>
     public enum Emotion2 : byte
     {
-
+        None,
 
         Admiration,
         Adoration,
