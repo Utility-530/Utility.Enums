@@ -1,6 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
+
+
 
 namespace UtilityEnum
 {
@@ -8,6 +8,7 @@ namespace UtilityEnum
     public enum AddRemove : byte
     {
         None,
-        Add, Remove
+        Add = 1, 
+        Remove
     }
 }

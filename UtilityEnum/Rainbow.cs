@@ -1,7 +1,7 @@
 public enum Rainbow : byte
 {
     Transparent,
-    Red,
+    Red = 1,
     Orange,
     Yellow,
     Green,

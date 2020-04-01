@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using UtilityEnum;
+﻿
 
 namespace UtilityEnum.Betting
 {
@@ -9,7 +6,7 @@ namespace UtilityEnum.Betting
     {
         None,
         [Names("Home","home","H")]
-        Home,
+        Home = 1,
         [Names("Draw","draw","D")]
         Draw,
         [Names("Away","away","A")]

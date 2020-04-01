@@ -4,7 +4,7 @@ namespace UtilityEnum
     public enum Quality : byte
     { 
         None,
-        Poor,
+        Poor = 1,
         Fair,
         Good,
         Excellent 

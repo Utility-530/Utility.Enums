@@ -1,7 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿
+
 using System.Linq;
-using System.Text;
+
 using System.Threading.Tasks;
 
 namespace UtilityEnum
@@ -9,5 +9,11 @@ namespace UtilityEnum
     /// <summary>
     ///  the positions on item in an array
     /// </summary>
-    public enum ListOrdinal : byte { None, First = 0, Second = 1, Third = 2 }
+    public enum ListOrdinal : byte 
+    { 
+        None,
+        First = 1, 
+        Second = 2, 
+        Third = 3 
+    }
 }

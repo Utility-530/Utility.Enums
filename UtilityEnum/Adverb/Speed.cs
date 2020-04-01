@@ -1,6 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
+
+
 
 namespace UtilityEnum.Adverb
 {
@@ -8,7 +8,7 @@ namespace UtilityEnum.Adverb
     public enum Speed:byte
     {
         None,
-        Promptly,
+        Promptly = 1,
         Rapidly,
         Slowly,
         Speedily,

@@ -1,10 +1,10 @@
-﻿using System;
+﻿
 
 namespace UtilityEnum
 {
 public enum Flux : byte
     {
-        None,
+        None = 1,
         Dynamic,
         Static
 

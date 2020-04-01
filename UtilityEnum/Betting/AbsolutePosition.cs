@@ -2,9 +2,8 @@
 { 
     public enum AbsolutePosition
     {
-        None, 
-        Winner, 
+        None,
+        Winner = 1, 
         Loser, 
-        Other
     }
 }

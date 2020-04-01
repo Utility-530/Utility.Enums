@@ -1,18 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
+
+
 
 namespace UtilityEnum
 {
-    //https://en.wikipedia.org/wiki/Process_state
-    public enum  ProcessState : byte
+    /// <summary>
+    /// <see href="https://en.wikipedia.org/wiki/Process_state"/>
+    /// </summary>
+    public enum ProcessState : byte
     {
         None,
-     Created,
-     Ready,
-     Running,
-     Blocked,
-     Terminated,
+        Created = 1,
+        Ready,
+        Running,
+        Blocked,
+        Terminated,
 
     }
 }

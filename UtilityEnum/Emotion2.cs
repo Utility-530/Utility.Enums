@@ -1,6 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
+
+
 
 namespace UtilityEnum
 {
@@ -11,8 +11,7 @@ namespace UtilityEnum
     public enum Emotion2 : byte
     {
         None,
-
-        Admiration,
+        Admiration = 1,
         Adoration,
         AestheticAppreciation,
         Amusement,

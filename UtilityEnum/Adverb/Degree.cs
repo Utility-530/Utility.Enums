@@ -1,13 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
+
+
 
 namespace UtilityEnum.Adverb
 {
     public enum Degree:byte
     {
         None,
-        Fairly,
+        Fairly = 1,
         Much,
         Pretty,
         Quite,

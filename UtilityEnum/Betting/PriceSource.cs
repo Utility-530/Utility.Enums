@@ -1,7 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿
+
 using System.ComponentModel;
-using System.Text;
+
 using UtilityEnum;
 
 
@@ -11,7 +11,7 @@ namespace UtilityEnum.Betting
     {
         None,
         [Names("10Bet")]
-        TenBet,
+        TenBet = 1,
         [Names("1xBet")]
         OnexBet,
         [Names("888sport")]

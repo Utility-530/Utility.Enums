@@ -1,6 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
+
+
 
 namespace UtilityEnum
 {
@@ -11,7 +11,7 @@ namespace UtilityEnum
     public enum Emotion : byte
     {
         None,
-        Fear,// → feeling of being afraid, frightened, scared.
+        Fear =1,// → feeling of being afraid, frightened, scared.
         Anger,// → feeling angry.A stronger word for anger is rage
         Sadness,// → feeling sad. Other words are sorrow, grief (a stronger feeling, for example when someone has died)
         Joy,// → feeling happy.Other words are happiness, gladness

@@ -1,13 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
 
 namespace UtilityEnum
 {
-
     public enum Side : byte
     {
         None,
-        Left, Right, Top,Bottom,Front,Back
+        Left = 1, 
+        Right, 
+        Top,
+        Bottom,
+        Front,
+        Back
     }
 }

@@ -1,13 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
+
+
 
 namespace UtilityEnum.Adverb
 {
     public enum PlaceAndMovement:byte
     {
         None,
-        Abroad,
+        Abroad = 1,
         Away,
         Back,
         Inside,

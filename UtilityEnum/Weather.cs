@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿
 namespace UtilityEnum
 {
     /// <summary>
@@ -10,7 +7,7 @@ namespace UtilityEnum
     public enum Weather : byte
     {
         None,
-        Rainy,
+        Rainy = 1,
         Stormy,
         Sunny,
         Cloudy,
@@ -35,7 +32,5 @@ namespace UtilityEnum
         Blizzard,
         avalanche,
         Mist,
-
-
     }
 }

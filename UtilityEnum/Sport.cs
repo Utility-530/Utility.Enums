@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Text;
+﻿using System.ComponentModel;
+
 
 namespace UtilityEnum
 {
@@ -9,7 +7,7 @@ namespace UtilityEnum
     {
         None,
         [Description("Football")]
-        Football,
+        Football = 1,
         [Description("Soccer")]
         Soccer,
         [Description("Basketball")]

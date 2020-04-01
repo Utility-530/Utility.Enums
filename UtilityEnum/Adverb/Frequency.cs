@@ -3,7 +3,7 @@
     public enum Frequency:byte
     {
         None,
-        Always,
+        Always = 1,
         Eventually,
         Finally,
         Frequently,

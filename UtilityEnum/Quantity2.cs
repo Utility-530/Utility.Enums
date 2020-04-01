@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
 
 namespace UtilityEnum
 {
@@ -8,7 +6,8 @@ namespace UtilityEnum
     public enum Quantity2 : byte
     {
         None,
-        Single, Multi
+        Single = 1, 
+        Multi
 
     }
 }

@@ -1,6 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
+
+
 
 namespace UtilityEnum
 {
@@ -9,8 +9,13 @@ namespace UtilityEnum
     public enum Direction : byte
     {
         None,
-        Left, Right, Forward, Backward, Up, Down
-    }
+        Left = 1,
+        Right, 
+        Forward,
+        Backward,
+        Up,
+        Down
+    } 
 
 }
 

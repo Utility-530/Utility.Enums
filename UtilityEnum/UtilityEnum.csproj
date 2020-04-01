@@ -1,15 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Declan Taylor</Authors>
-    <Version>1.2.1</Version>
-    <Description>Rainbow, ThreeWayBetType, AddRemove, Affinity, Country, DataType, Direction, Emotion, Emotion2, Execution, Flux, ListOrdinal, LogType, Orientation, ProcessState, Quality, Quantity, Quantity2, RadialDirection, Resolution, Scale, Side, Sort, Speed, Sport, Switch, Tense, Urgency, Weather, YesNo, Operation, AbsolutePosition, ContractType, InvestmentType, MarketType, PriceSource, PriceType, Side, ThreeWayOutCome, Degree, Frequency, PlaceAndMovement, Speed enums.
+    <Version>2.0.0</Version>
+    <Description>Rainbow, AddRemove, Affinity, Country, DatabaseOperation, DataType, Direction, Emotion, Emotion2, Execution, Flux, ListOrdinal, LogType, Orientation, ProcessState, Quality, Quantity, Quantity2, RadialDirection, Resolution, Scale, Side, Sort, Speed, Sport, Switch, Tense, Urgency, Weather, YesNo, AbsolutePosition, ContractType, MarketType, PriceSource, PriceType, ThreeWayBetType, ThreeWayOutCome, TradeSide, TradeType, Degree, Frequency, PlaceAndMovement, Speed enums.
+
 Names Attribute(and helper methods) to match strings to enums and CountryInfo attribute(and helper methods) to match strings to countries and provide country information.</Description>
     <PackageProjectUrl>https://github.com/dtaylor-530/UtilityEnum</PackageProjectUrl>
-    <AssemblyVersion>1.2.1.0</AssemblyVersion>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <PackageTags>enum, utility</PackageTags>
-    <FileVersion>1.2.1.0</FileVersion>
+    <FileVersion>2.0.0.0</FileVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReleaseNotes>Added None value to all enums. All enums start at 1 (after None).</PackageReleaseNotes>
   </PropertyGroup>
 </Project>

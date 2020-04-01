@@ -1,11 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
 
-namespace Betting.Abstract
+
+
+namespace UtilityEnum.Betting
 {
     public enum ThreeWayBetType:byte
-    { None,
-        Home = 1, Away, Draw
+    { 
+        None,
+        Home = 1, 
+        Away, 
+        Draw
     }
 }

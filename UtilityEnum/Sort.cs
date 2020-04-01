@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
 
 namespace UtilityEnum
 {
     public enum Sort : byte
     {
         None,
-        Ascension,
+        Ascension = 1,
         Descension
     }
 }

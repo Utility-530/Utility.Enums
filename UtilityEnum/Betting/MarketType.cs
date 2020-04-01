@@ -1,7 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿
+
 using System.ComponentModel;
-using System.Text;
+
 using UtilityEnum;
 namespace UtilityEnum.Betting
 {
@@ -10,7 +10,7 @@ namespace UtilityEnum.Betting
     {
         None,
         [Names("1", "HalfTimeResult", "half-time-result")]
-        HalfTimeResult,
+        HalfTimeResult = 1,
 
         [Names("ou")]
         //[Names("Over Under")]

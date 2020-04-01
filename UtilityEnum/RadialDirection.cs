@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
+
+
 
 namespace UtilityEnum
 {
     public enum RadialDirection : byte
     {
         None,
-        Clockwise,AntiClockwise
+        Clockwise = 1,
+        AntiClockwise
     }
 }

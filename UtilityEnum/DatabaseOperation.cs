@@ -1,21 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace UtilityEnum.Database
+﻿
+namespace UtilityEnum
 {
 
-    public enum Operation : byte
+    public enum DatabaseOperation : byte
     {
         None,
-        Add,
+        Add = 1,
         Remove,
         Update,
         Insert,
         Delete,
-
-
-
+        Replace,
+        Upsert
     }
 }
 

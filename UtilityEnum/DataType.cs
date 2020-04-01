@@ -1,13 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
+
+
 
 namespace UtilityEnum
 {
     public enum DataType
     {
         None,
-        Json,
+        Json = 1,
         Xml,
         ProtoBuf
     }
