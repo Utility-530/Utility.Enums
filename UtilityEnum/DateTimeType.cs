@@ -4,7 +4,7 @@ using System.Text;
 
 namespace UtilityEnum
 {
-    public enum DateTime
+    public enum DateTimeType
     {
         None,
         Date=1,
