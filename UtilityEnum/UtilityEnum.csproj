@@ -14,5 +14,13 @@ Names Attribute(and helper methods) to match strings to enums and CountryInfo at
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReleaseNotes>
     </PackageReleaseNotes>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
 </Project>
