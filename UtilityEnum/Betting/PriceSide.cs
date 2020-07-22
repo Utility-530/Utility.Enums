@@ -6,7 +6,7 @@ using UtilityEnum;
 
 namespace UtilityEnum.Betting
 {
-    public enum PriceType : byte
+    public enum PriceSide : byte
     {
         None,
         Bid = 1,

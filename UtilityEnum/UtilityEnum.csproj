@@ -2,14 +2,14 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Authors>Declan Taylor</Authors>
-    <Version>2.0.4</Version>
+    <Version>2.1.0</Version>
     <Description>Rainbow, AddRemove, Affinity, CaseType, CompanySuffix, Compass, Country, DatabaseOperation, DataType, DateTimeType, Direction, Emotion, Emotion2, Execution, Flux, ListOrdinal, Location, LogLevel, Orientation, ProcessState, Quality, Quantity, Quantity2, RadialDirection, Resolution, Scale, Side, Sort, Speed, Sport, Switch, Tense, TimeInterval, Urgency, Weather, YesNo, Male, Female, Family, General, MicrosoftOffice, AbsolutePosition, ContractType, MarketType, PriceSource, PriceType, ThreeWayBetType, ThreeWayOutCome, TradeSide, TradeType, Degree, Frequency, PlaceAndMovement, Speed enums.
 
 Names Attribute(and helper methods) to match strings to enums and CountryInfo attribute(and helper methods) to match strings to countries and provide country information.</Description>
     <PackageProjectUrl>https://github.com/dtaylor-530/UtilityEnum</PackageProjectUrl>
-    <AssemblyVersion>2.0.3.0</AssemblyVersion>
+    <AssemblyVersion>2.1.0.0</AssemblyVersion>
     <PackageTags>enum, utility</PackageTags>
-    <FileVersion>2.0.3.0</FileVersion>
+    <FileVersion>2.1.0.0</FileVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReleaseNotes>
