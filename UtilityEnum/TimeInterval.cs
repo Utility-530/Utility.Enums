@@ -15,8 +15,5 @@ namespace UtilityEnum
         Week,
         Month,
         Year,
-
     }
-
-
 }

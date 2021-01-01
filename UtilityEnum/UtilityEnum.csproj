@@ -1,15 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <Authors>Declan Taylor</Authors>
-    <Version>2.1.0</Version>
-    <Description>Rainbow, AddRemove, Affinity, CaseType, CompanySuffix, Compass, Country, DatabaseOperation, DataType, DateTimeType, Direction, Emotion, Emotion2, Execution, Flux, ListOrdinal, Location, LogLevel, Orientation, ProcessState, Quality, Quantity, Quantity2, RadialDirection, Resolution, Scale, Side, Sort, Speed, Sport, Switch, Tense, TimeInterval, Urgency, Weather, YesNo, Male, Female, Family, General, MicrosoftOffice, AbsolutePosition, ContractType, MarketType, PriceSource, PriceType, ThreeWayBetType, ThreeWayOutCome, TradeSide, TradeType, Degree, Frequency, PlaceAndMovement, Speed enums.
+    <Version>2.1.1</Version>
+    <Description>
+		Rainbow, AddRemove, Affinity, CaseType, CompanySuffix, Compass, Country, DatabaseOperation, DataType, DateTimeType, Direction, Emotion, Emotion2, Execution, Flux, ListOrdinal, Location, LogLevel, Orientation, ProcessState, Quality, Quantity, Quantity2, RadialDirection, Resolution, Scale, Side, Sign, Sort, Speed, Sport, Switch, Tense, TimeFraction, TimeInterval, Urgency, Weather, YesNo, Male, Female, Family, General, MicrosoftOffice, AbsolutePosition, ContractType, MarketType, PriceSide, PriceSource, ThreeWayBetType, ThreeWayOutCome, TradeSide, TransactionSide, Degree, Frequency, PlaceAndMovement, Speed enums.
 
-Names Attribute(and helper methods) to match strings to enums and CountryInfo attribute(and helper methods) to match strings to countries and provide country information.</Description>
+		Names Attribute(and helper methods) to match strings to enums and CountryInfo attribute(and helper methods) to match strings to countries and provide country information.
+	</Description>
     <PackageProjectUrl>https://github.com/dtaylor-530/UtilityEnum</PackageProjectUrl>
-    <AssemblyVersion>2.1.0.0</AssemblyVersion>
+    <AssemblyVersion>2.1.1.0</AssemblyVersion>
     <PackageTags>enum, utility</PackageTags>
-    <FileVersion>2.1.0.0</FileVersion>
+    <FileVersion>2.1.1.0</FileVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReleaseNotes>
