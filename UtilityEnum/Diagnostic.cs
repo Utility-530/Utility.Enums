@@ -1,14 +1,11 @@
 ﻿
-
-
-
 namespace UtilityEnum
 {
-    public enum LogLevel : byte
+    public enum Diagnostic : byte
     {
         None,
         Debug = 1,
-        Info,
+        Information,
         Warning,
         Error,
         Fatal
