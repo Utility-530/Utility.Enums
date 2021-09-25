@@ -1,5 +1,6 @@
 ﻿# nullable enable
 using System;
+using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -9,43 +10,46 @@ namespace ProjectFileEdit
 {
 
 
-    public class DescriptionModifier
+    public class DescriptionCreator
     {
-        public string Prependage { get; set; } = string.Empty;
-        public string Appendage { get; set; } = string.Empty;
 
-        public string ModifyDescription(Type type, Predicate<Type>? predicate = null)
+        public static string Create(Assembly assembly, Predicate<Type>? predicate = null, string? prependage = null, string? appendage =null)
         {
-           // MSBuildLocator.RegisterDefaults();
-            Assembly assembly = Assembly.GetAssembly(type);
+            var stringBuilder = new StringBuilder();
 
-            var description = CreateDescription(predicate ??= new Predicate<Type>(x => true), assembly);
-            var dir = new System.IO.FileInfo(assembly.Location);
-            var parent = dir.Directory.Parent.Parent.Parent.Parent;
-            var name = System.IO.Path.ChangeExtension(dir.Name,"csproj");
-            var file = parent.GetFiles(name,System.IO.SearchOption.AllDirectories).Single();
-            SetDescription(description, file.FullName);
+            stringBuilder.Append(prependage);
 
-            return description;
-
-
-            string CreateDescription(Predicate<Type> predicate, Assembly assembly)
+            foreach (Type aType in assembly.GetTypes().Where(x => predicate?.Invoke(x) != false).OrderBy(a => a.Name))
             {
-                var stringBuilder = new StringBuilder();
-
-                stringBuilder.Append(Prependage);
-
-                foreach (Type aType in assembly.GetTypes().Where(x => predicate(x)))
-                {
-                    stringBuilder.Append(aType.Name + ", ");
-                }
-
-                stringBuilder.Remove(stringBuilder.Length - 2, 2);
-                stringBuilder.Append(Appendage);
-
-                return stringBuilder.ToString();
+                stringBuilder.Append(aType.Name + ", ");
             }
 
+            stringBuilder.Remove(stringBuilder.Length - 2, 2);
+            stringBuilder.Append(appendage);
+
+            return stringBuilder.ToString();
+        }
+    }
+
+
+    public class DescriptionModifier
+    {
+
+
+        public static string ModifyDescription(string description, FileInfo fileInfo)
+        {
+            var parent = fileInfo.Directory.Parent.Parent.Parent.Parent;
+            var name = System.IO.Path.ChangeExtension(fileInfo.Name, "csproj");
+            var file = parent.GetFiles(name, System.IO.SearchOption.AllDirectories).Single();
+            try
+            {
+                SetDescription(description, file.FullName);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            return description;
 
             static void SetDescription(string description, string projectPath)
             {
@@ -57,18 +61,6 @@ namespace ProjectFileEdit
 
                 project.Save();
             }
-
-            //static void fsd()
-            //{
-            //    string solutionPath = @"C:\Users\...\PathToSolution\MySolution.sln";
-            //    var msWorkspace =new Microsoft.Build.Evaluation.So(,)
-
-            //    var solution = msWorkspace.OpenSolutionAsync(solutionPath).Result;
-            //    foreach (var project in solution.Projects)
-            //    {
-
-            //    }
-            //}
         }
 
 
