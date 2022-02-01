@@ -1,8 +1,4 @@
-﻿
-
-
-
-namespace UtilityEnum
+﻿namespace UtilityEnum
 {
     public enum Urgency : byte
     {

@@ -1,8 +1,4 @@
-﻿
-
-
-
-namespace UtilityEnum
+﻿namespace UtilityEnum
 {
     public enum Quantity : byte
     {
@@ -11,6 +7,4 @@ namespace UtilityEnum
         Average,
         Many
     }
-
-
 }

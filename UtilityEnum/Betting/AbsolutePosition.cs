@@ -1,9 +1,9 @@
 ﻿namespace UtilityEnum.Betting
-{ 
+{
     public enum AbsolutePosition
     {
         None,
-        Winner = 1, 
-        Loser, 
+        Winner = 1,
+        Loser,
     }
 }

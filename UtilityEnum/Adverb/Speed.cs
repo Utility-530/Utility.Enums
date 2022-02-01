@@ -1,11 +1,6 @@
-﻿
-
-
-
-namespace UtilityEnum.Adverb
+﻿namespace UtilityEnum.Adverb
 {
-
-    public enum Speed:byte
+    public enum Speed : byte
     {
         None,
         Promptly = 1,
@@ -13,6 +8,5 @@ namespace UtilityEnum.Adverb
         Slowly,
         Speedily,
         Tediously
-
     }
 }

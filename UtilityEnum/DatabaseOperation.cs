@@ -1,7 +1,5 @@
-﻿
-namespace UtilityEnum
+﻿namespace UtilityEnum
 {
-
     public enum DatabaseOperation : byte
     {
         None,
@@ -14,4 +12,3 @@ namespace UtilityEnum
         Upsert
     }
 }
-

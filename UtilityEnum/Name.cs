@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace UtilityEnum
+﻿namespace UtilityEnum
 {
     namespace Name
-    { 
+    {
         public enum Male
         {
             None,
-            Aaron=1, Abdiel, Abdullah, Abel, Abraham, Abram, Adam, Adan, Addison, Aden, Aditya,
+            Aaron = 1, Abdiel, Abdullah, Abel, Abraham, Abram, Adam, Adan, Addison, Aden, Aditya,
             Adolfo,
             Adonis, Adrian, Adriel, Adrien, Agustin, Ahmad, Ahmed, Aidan, Aiden, Alan, Albert,
             Alberto,
@@ -123,7 +119,7 @@ namespace UtilityEnum
             Myles, Nash, Nasir, Nathan, Nathanael, Nathanial, Nathaniel, Nathen, Neal, Nehemiah,
             Neil, Nelson,
             Nestor, Nicholas, Nick, Nickolas, Nico, Nicolas, Nigel, Nikhil, Nikolas, Noah, Noe,
-            Noel ,
+            Noel,
             Nolan, Norman, Octavio, Oliver, Omar, Omari, Omarion, Orion, Orlando, Osbaldo, Oscar,
             Osvaldo, Oswaldo, Owen, Pablo, Parker, Patrick, Paul, Paxton, Payton, Pedro, Perry,
             Peter,
@@ -165,7 +161,7 @@ namespace UtilityEnum
         public enum Female
         {
             None,
-            Aaliyah=1, Abagail, Abbey, Abbie, Abbigail, Abby, Abigail, Abigale, Abigayle, Abril,
+            Aaliyah = 1, Abagail, Abbey, Abbie, Abbigail, Abby, Abigail, Abigale, Abigayle, Abril,
             Addison, Adeline, Adriana, Adrianna, Adrienne, Aileen, Aimee, Ainsley, Aisha, Aiyana,
             Aja, Akira, Alaina, Alana, Alanis, Alanna, Alayna, Aleah, Alejandra, Alena,
             Alessandra, Alex, Alexa, Alexandra, Alexandrea, Alexandria, Alexia, Alexis, Alexus,
@@ -193,7 +189,7 @@ namespace UtilityEnum
             Cecilia, Celeste, Celia, Celina, Celine, Chana, Charity, Charlotte, Chasity, Chaya,
             Chelsea, Chelsey, Cheyanne, Cheyenne, Chloe, Christa, Christian, Christiana, Christina,
             Christine,
-            Christy, Ciara, Ciera, Cierra, Cindy, Citlali, Claire, Clara, Clare, Clarissa,	Claudia,
+            Christy, Ciara, Ciera, Cierra, Cindy, Citlali, Claire, Clara, Clare, Clarissa, Claudia,
             Colleen, Cora, Corinne, Courtney, Cristal, Cristina, Crystal, Cynthia, Daisy, Dakota,
             Dalia, Damaris, Dana, Dania, Daniela, Daniella, Danielle, Danna, Daphne, Darby,
             Darlene, Dasia, Dayana, Deanna, Deasia, Deborah, Deja, Delaney, Delilah, Denise,
@@ -220,7 +216,7 @@ namespace UtilityEnum
             Jayda, Jayde, Jayden, Jayla, Jaylene, Jaylin, Jaylyn, Jaylynn, Jazlyn, Jazmin,
             Jazmine, Jazmyn, Jazmyne, Jeanette, Jena, Jenifer, Jenna, Jennifer, Jenny, Jessica,
             Jessie, Jewel, Jillian, Jimena, Joana, Joanna, Jocelyn, Joelle, Johana, Johanna,
-            Jolie, Jordan, Jordyn, Joselyn, Josephine, Josie, Joslyn, Journey, Joy, 	Joyce, Judith,
+            Jolie, Jordan, Jordyn, Joselyn, Josephine, Josie, Joslyn, Journey, Joy, Joyce, Judith,
             Julia, Juliana, Julianna, Julianne, Julie, Juliet, Juliette, Julissa, Justice, Justine,
             Kacie, Kaela, Kaelyn, Kaia, Kaila, Kailee, Kailey, Kailyn, Kaitlin, Kaitlyn,
             Kaitlynn, Kaiya, Kaleigh, Kaley, Kali, Kaliyah, Kallie, Kalyn, Kamryn, Kara,
@@ -246,7 +242,7 @@ namespace UtilityEnum
             Mariana, Marianna, Maribel, Marie, Mariela, Marilyn, Marina, Marisa, Marisol, Marissa,
             Maritza, Marlee, Marlene, Marley, Martha, Mary, Maryam, Mattie, Maura, Maya,
             Mayra, Mckayla, Mckenna, Mckenzie, Meadow, Meagan, Meaghan, Megan, Meghan, Melanie,
-            Melany, Melina, Melinda, Melissa, Melody, Mercedes, Meredith, Mia, 	Miah, Micaela, Micah,
+            Melany, Melina, Melinda, Melissa, Melody, Mercedes, Meredith, Mia, Miah, Micaela, Micah,
             Michaela, Michelle, Mikaela, Mikayla, Mina, Miracle, Miranda, Mireya, Miriam, Miya,
             Mollie, Molly, Monica, Monique, Monserrat, Montana, Morgan, Moriah, Mya, Myah,
             Myra, Nadia, Nancy, Naomi, Natalia, Natalie, Nataly, Natasha, Nathalie, Nayeli,
@@ -274,28 +270,27 @@ namespace UtilityEnum
             Yuliana, Yvette, Yvonne, Zaria, Zoe, Zoey, Zoie
         };
 
-
         public enum Family
         {
             None,
-            Smith=1, Johnson, Williams, Jones, Brown, Davis, Miller, Wilson, Moore, Taylor,
+            Smith = 1, Johnson, Williams, Jones, Brown, Davis, Miller, Wilson, Moore, Taylor,
             Anderson,
             Thomas, Jackson, White, Harris, Martin, Thompson, Garcia, Martinez, Robinson, Clark,
             Rodriguez, Lewis, Lee, Walker, Hall, Allen, Young, Hernandez, King, Wright, Lopez,
             Hill,
             Scott, Green, Adams, Baker, Gonzalez, Nelson, Carter, Mitchell, Perez, Roberts,
             Turner,
-            Phillips, Campbell, Parker, Evans, Edwards, Collins, Stewart, Sanchez, Morris, Rogers  ,
-            Reed, Coook, Morgan, Bell, Murphy, Bailey, Rivera, Cooper, Richardson, Cox  , Howard,
+            Phillips, Campbell, Parker, Evans, Edwards, Collins, Stewart, Sanchez, Morris, Rogers,
+            Reed, Coook, Morgan, Bell, Murphy, Bailey, Rivera, Cooper, Richardson, Cox, Howard,
             Ward,
             Torres, Peterson, Gray, Ramirez, James, Watson, Brooks, Kelly, Sanders, Price,
             Bennett,
             Wood, Barnes, Ross, Henderson, Coleman, Jenkins, Perry, Powell, Long, Patterson,
             Hughes,
-            Flores, Washington, Butler, Simmons, Foster, Gonzales, Bryant , Alexander, ussell,
+            Flores, Washington, Butler, Simmons, Foster, Gonzales, Bryant, Alexander, ussell,
             Griffin,
             Diaz, Hayes,
-            Smih,  Angelo, Boulstridge, Bungard, Bursnell,
+            Smih, Angelo, Boulstridge, Bungard, Bursnell,
             Cabrera, Chaisty, Clayworth, Denial, Dissanayake, Domville, Dua, Edeson, Garrott,
             Gaspar, Gauge, Gelson, Happer, Hawa, Helling, Hollingberry, Howsham, Husher,
             Huth, Khambaita, Kinlan, Le_Feuvre, Leatherby, Lowsley, Mardling, Mc_Cart, McCalman,

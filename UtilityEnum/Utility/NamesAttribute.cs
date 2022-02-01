@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Linq;
-
 
 namespace UtilityEnum
 {
@@ -14,5 +12,4 @@ namespace UtilityEnum
             Names = names;
         }
     }
-
 }

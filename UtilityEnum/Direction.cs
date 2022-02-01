@@ -1,10 +1,9 @@
-﻿
-namespace UtilityEnum
+﻿namespace UtilityEnum
 {
     /// <summary>
     /// <a href="https://en.wikipedia.org/wiki/Relative_direction"></a>
     /// relative direction
-    /// </summary>   
+    /// </summary>
     [System.Flags]
     public enum Direction : byte
     {
@@ -17,4 +16,3 @@ namespace UtilityEnum
         Down = 32
     }
 }
-

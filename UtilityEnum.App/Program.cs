@@ -1,11 +1,11 @@
-﻿using System;
+﻿using ProjectFileEdit;
+using System;
 using System.Linq;
 using System.Reflection;
-using ProjectFileEdit;
 
 namespace UtilityEnum.App
 {
-    class Program
+    internal class Program
     {
         private const string AppendDescription = "\nNames Attribute(and helper methods) to match strings to enums and CountryInfo attribute(and helper methods) to match strings to countries and provide country information.";
 
@@ -13,7 +13,7 @@ namespace UtilityEnum.App
         {
             Assembly assembly = Assembly.GetAssembly(typeof(YesNo));
 
-            var description =  DescriptionCreator.Create(
+            var description = DescriptionCreator.Create(
                 assembly,
                 DescriptionModifier.EnumPredicate(),
                 appendage: " enums." + Environment.NewLine + AppendDescription);

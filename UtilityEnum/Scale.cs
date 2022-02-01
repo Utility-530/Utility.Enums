@@ -1,6 +1,4 @@
-﻿
-
-namespace UtilityEnum
+﻿namespace UtilityEnum
 {
     public enum Scale : byte
     {

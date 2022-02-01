@@ -1,10 +1,6 @@
-﻿
-
-
-
-namespace UtilityEnum.Adverb
+﻿namespace UtilityEnum.Adverb
 {
-    public enum Degree:byte
+    public enum Degree : byte
     {
         None,
         Fairly = 1,
@@ -15,6 +11,5 @@ namespace UtilityEnum.Adverb
         Really,
         Scarcely,
         Very
-
     }
 }

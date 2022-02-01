@@ -1,19 +1,17 @@
 ﻿# nullable enable
+
+using Microsoft.Build.Evaluation;
 using System;
 using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
-using Microsoft.Build.Evaluation;
 
 namespace ProjectFileEdit
 {
-
-
     public class DescriptionCreator
     {
-
-        public static string Create(Assembly assembly, Predicate<Type>? predicate = null, string? prependage = null, string? appendage =null)
+        public static string Create(Assembly assembly, Predicate<Type>? predicate = null, string? prependage = null, string? appendage = null)
         {
             var stringBuilder = new StringBuilder();
 
@@ -31,11 +29,8 @@ namespace ProjectFileEdit
         }
     }
 
-
     public class DescriptionModifier
     {
-
-
         public static string ModifyDescription(string description, FileInfo fileInfo)
         {
             var parent = fileInfo.Directory.Parent.Parent.Parent.Parent;
@@ -63,8 +58,6 @@ namespace ProjectFileEdit
             }
         }
 
-
         public static Predicate<Type> EnumPredicate() => new Predicate<Type>(x => x.IsSubclassOf(typeof(Enum)));
-
     }
 }

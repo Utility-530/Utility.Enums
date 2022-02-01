@@ -3,7 +3,7 @@
     public enum Connectivity
     {
         None,
-        OnLine = 1, 
+        OnLine = 1,
         OffLine
     }
 }

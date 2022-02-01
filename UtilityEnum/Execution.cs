@@ -1,10 +1,5 @@
-﻿
-
-
-
-namespace UtilityEnum
+﻿namespace UtilityEnum
 {
-
     public enum Execution : byte
     {
         None,
@@ -13,5 +8,4 @@ namespace UtilityEnum
         Success,
         TooLate
     }
-
 }

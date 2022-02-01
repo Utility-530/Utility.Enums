@@ -1,14 +1,9 @@
-﻿
-
-namespace UtilityEnum
+﻿namespace UtilityEnum
 {
-public enum Flux : byte
+    public enum Flux : byte
     {
         None = 1,
         Dynamic,
         Static
-
     }
-
-
 }

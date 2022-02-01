@@ -1,14 +1,10 @@
-﻿
-
-
-
-namespace UtilityEnum.Betting
+﻿namespace UtilityEnum.Betting
 {
-    public enum ThreeWayBetType:byte
-    { 
+    public enum ThreeWayBetType : byte
+    {
         None,
-        Home = 1, 
-        Away, 
+        Home = 1,
+        Away,
         Draw
     }
 }

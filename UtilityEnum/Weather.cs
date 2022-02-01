@@ -1,5 +1,4 @@
-﻿
-namespace UtilityEnum
+﻿namespace UtilityEnum
 {
     /// <summary>
     /// <see href="https://weather.fandom.com/wiki/Types_of_Weather"/>

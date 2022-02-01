@@ -1,10 +1,4 @@
-﻿
-
-using System.ComponentModel;
-
-using UtilityEnum;
-
-namespace UtilityEnum.Betting
+﻿namespace UtilityEnum.Betting
 {
     public enum PriceSide : byte
     {
@@ -13,5 +7,3 @@ namespace UtilityEnum.Betting
         Offer,
     }
 }
-
-

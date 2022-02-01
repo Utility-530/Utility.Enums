@@ -1,19 +1,13 @@
-﻿
-
-using System.Linq;
-
-using System.Threading.Tasks;
-
-namespace UtilityEnum
+﻿namespace UtilityEnum
 {
     /// <summary>
     ///  the positions on item in an array
     /// </summary>
-    public enum ListOrdinal : byte 
-    { 
+    public enum ListOrdinal : byte
+    {
         None,
-        First = 1, 
-        Second = 2, 
-        Third = 3 
+        First = 1,
+        Second = 2,
+        Third = 3
     }
 }

@@ -1,13 +1,12 @@
-﻿
-using System;
+﻿using System;
 using System.Linq;
 
 namespace UtilityEnum
 {
     public static class CountryInfo
     {
-        static Type type = typeof(Country);
-        static Type typeInfo = typeof(CountryInfoAttribute);
+        private static Type type = typeof(Country);
+        private static Type typeInfo = typeof(CountryInfoAttribute);
 
         public static string GetName(this Country value) => GetCountryInfoAttribute(value).Name;
 
@@ -23,10 +22,8 @@ namespace UtilityEnum
 
         private static CountryInfoAttribute GetCountryInfoAttribute(this Enum value) => (type.GetField(value.ToString()).GetCustomAttributes(typeof(CountryInfoAttribute), false) as CountryInfoAttribute[])[0];
 
-
         public static Country GetCountry(string searchField, string attribute)
         {
-
             Func<Country, bool> func = null;
             string lower = searchField.ToLower();
             switch (attribute)
@@ -34,18 +31,23 @@ namespace UtilityEnum
                 case nameof(CountryInfoAttribute.Name):
                     func = a => a.GetName().ToLower() == lower;
                     break;
+
                 case nameof(CountryInfoAttribute.Code2):
                     func = a => a.GetCode2().ToLower() == lower;
                     break;
+
                 case nameof(CountryInfoAttribute.Code3):
                     func = a => a.GetCode3().ToLower() == lower;
                     break;
+
                 case nameof(CountryInfoAttribute.Currency):
                     func = a => a.GetCurrency().ToLower() == lower;
                     break;
+
                 case nameof(CountryInfoAttribute.CurrencyCode):
                     func = a => a.GetCurrencyCode().ToLower() == lower;
                     break;
+
                 case nameof(CountryInfoAttribute.PhoneCode):
                     func = a => new String(a.GetPhoneCode().Where(Char.IsDigit).ToArray()) == new String(lower.Where(Char.IsDigit).ToArray());
                     break;
@@ -66,8 +68,6 @@ namespace UtilityEnum
             return Country.GetValues(typeof(Country)).Cast<Country>()
                 .SelectMany(v => funcs.Select(func => func(searchField)))
                 .FirstOrDefault(_ => _ != default);
-
         }
     }
-
 }

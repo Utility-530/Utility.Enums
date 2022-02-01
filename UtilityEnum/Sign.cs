@@ -1,5 +1,4 @@
-﻿
-namespace UtilityEnum
+﻿namespace UtilityEnum
 {
     public enum Sign : byte
     {

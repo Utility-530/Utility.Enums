@@ -1,10 +1,9 @@
-﻿
-namespace UtilityEnum
+﻿namespace UtilityEnum
 {
     public enum Speed : byte
     {
         None,
-        Slow = 1, 
+        Slow = 1,
         Medium,
         Fast
     }

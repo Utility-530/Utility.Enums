@@ -1,8 +1,4 @@
-﻿
-
-
-
-namespace UtilityEnum
+﻿namespace UtilityEnum
 {
     /// <summary>
     /// <see href="https://en.wikipedia.org/wiki/Process_state"/>
@@ -15,6 +11,5 @@ namespace UtilityEnum
         Running,
         Blocked,
         Terminated,
-
     }
 }

@@ -1,10 +1,6 @@
-﻿
-
-
-
-namespace UtilityEnum.Adverb
+﻿namespace UtilityEnum.Adverb
 {
-    public enum PlaceAndMovement:byte
+    public enum PlaceAndMovement : byte
     {
         None,
         Abroad = 1,
@@ -14,6 +10,5 @@ namespace UtilityEnum.Adverb
         Nearby,
         Outside,
         Up,
-
     }
 }

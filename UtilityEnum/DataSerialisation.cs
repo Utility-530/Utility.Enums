@@ -1,15 +1,10 @@
-﻿
-
-
-
-namespace UtilityEnum
+﻿namespace UtilityEnum
 {
-    public enum DataType
+    public enum DataSerialisation
     {
         None,
         Json = 1,
         Xml,
         ProtoBuf
     }
-    
 }

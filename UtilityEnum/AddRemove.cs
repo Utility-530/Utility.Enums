@@ -1,14 +1,9 @@
-﻿
-
-
-
-namespace UtilityEnum
+﻿namespace UtilityEnum
 {
-
     public enum AddRemove : byte
     {
         None,
-        Add = 1, 
+        Add = 1,
         Remove
     }
 }

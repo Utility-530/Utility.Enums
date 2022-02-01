@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Text;
+﻿using System.ComponentModel;
 
 namespace UtilityEnum
 {
@@ -173,7 +170,6 @@ namespace UtilityEnum
             [Description("Extensible markup language.")] xml,
             [Description("XML style sheet.")] xsl,
             [Description("Compressed Zip archive.")] zip,
-
         }
 
         public enum MicrosoftOffice
@@ -272,7 +268,6 @@ namespace UtilityEnum
             [Description("Microsoft Excel Workspace file")] xlw,
             [Description("Microsoft Office InfoPath file")] xsf,
             [Description("Microsoft Office InfoPath template form file")] xsn,
-
         }
 
         ///// <summary>

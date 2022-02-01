@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace UtilityEnum
+﻿namespace UtilityEnum
 {
     public enum DateTimeType
     {
         None,
-        Date=1,
+        Date = 1,
         Time,
         DateTime
     }

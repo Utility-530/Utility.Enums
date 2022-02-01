@@ -1,6 +1,6 @@
 ﻿namespace UtilityEnum.Adverb
 {
-    public enum Frequency:byte
+    public enum Frequency : byte
     {
         None,
         Always = 1,
@@ -18,6 +18,5 @@
         Usually,
         Weekly,
         Yearly
-
     }
 }

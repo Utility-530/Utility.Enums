@@ -1,8 +1,4 @@
-﻿
-
-
-
-namespace UtilityEnum
+﻿namespace UtilityEnum
 {
     /// <summary>
     ///         University of California, Berkeley
