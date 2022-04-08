@@ -1,6 +1,6 @@
 ﻿namespace UtilityEnum
 {
-    public enum Quantity2 : byte
+    public enum Entities : byte
     {
         None,
         Single = 1,

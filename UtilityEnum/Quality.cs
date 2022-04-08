@@ -5,6 +5,7 @@
         None,
         Poor = 1,
         Fair,
+        Average,
         Good,
         Excellent
     }
