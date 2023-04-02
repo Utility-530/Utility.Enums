@@ -13,6 +13,7 @@
         Forward = 4,
         Backward = 8,
         Up = 16,
-        Down = 32
+        Down = 32,
+        All = Left | Right | Forward | Backward | Up | Down
     }
 }

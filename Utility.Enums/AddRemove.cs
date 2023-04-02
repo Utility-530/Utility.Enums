@@ -4,6 +4,7 @@
     {
         None,
         Add = 1,
-        Remove
+        Remove,
+        All = Add | Remove
     }
 }
