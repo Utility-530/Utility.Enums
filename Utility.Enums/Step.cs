@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Utility.Enums
 {
     [Flags]
-
     public enum Step
     {
         None,
@@ -14,6 +11,5 @@ namespace Utility.Enums
         Walk = 4,
         Wait = 8,
         All = Backward | Forward | Walk | Wait
-
     }
 }

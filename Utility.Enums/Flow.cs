@@ -2,7 +2,6 @@
 {
     public enum Flow
     {
-
         Direct,
         Under,
         Over
