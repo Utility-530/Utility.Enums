@@ -2,6 +2,8 @@
 {
     public enum Access
     {
-        None, Close, Open
+        None,
+        Get = 1,
+        Set = 2
     }
 }
