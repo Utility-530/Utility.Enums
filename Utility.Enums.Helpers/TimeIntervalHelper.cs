@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Utility.Enums.Utility
+namespace Utility.Enums.Helpers
 {
     internal class TimeIntervalHelper
     {
@@ -19,7 +19,7 @@ namespace Utility.Enums.Utility
                         return endDate.Year - startDate.Year;
 
                     case TimeInterval.Month:
-                        return (endDate.Month - startDate.Month) + (12 * (endDate.Year - startDate.Year));
+                        return endDate.Month - startDate.Month + 12 * (endDate.Year - startDate.Year);
 
                     case TimeInterval.Day:
                         return Round(ts.TotalDays);
@@ -39,8 +39,8 @@ namespace Utility.Enums.Utility
 
                 static long Round(double dVal)
                 {
-                    if (dVal >= 0) return (long)System.Math.Floor(dVal);
-                    return (long)System.Math.Ceiling(dVal);
+                    if (dVal >= 0) return (long)Math.Floor(dVal);
+                    return (long)Math.Ceiling(dVal);
                 }
             }
         }
@@ -71,7 +71,7 @@ namespace Utility.Enums.Utility
                             var d1Quarter = GetQuarter(startDate.Month);
                             var d2Quarter = GetQuarter(endDate.Month);
                             var d1 = d2Quarter - d1Quarter;
-                            var d2 = (4 * (endDate.Year - startDate.Year));
+                            var d2 = 4 * (endDate.Year - startDate.Year);
                             return Round(d1 + d2);
                         }
                     default:
@@ -80,8 +80,8 @@ namespace Utility.Enums.Utility
 
                 static long Round(double dVal)
                 {
-                    if (dVal >= 0) return (long)System.Math.Floor(dVal);
-                    return (long)System.Math.Ceiling(dVal);
+                    if (dVal >= 0) return (long)Math.Floor(dVal);
+                    return (long)Math.Ceiling(dVal);
                 }
 
                 static int GetQuarter(int nMonth)

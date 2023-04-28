@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿
 
-namespace Utility.Enums
+namespace Utility.Enums.Helpers
 {
     public static class NamesAttributeHelper
     {

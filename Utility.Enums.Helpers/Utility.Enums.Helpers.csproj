@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <Description>
+		helper methods to match strings to enums and CountryInfo attribute(and helper methods) to match strings to countries and provide country information.
+	  </Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Utility.Enums\Utility.Enums.csproj" />
+  </ItemGroup>
+
+</Project>
