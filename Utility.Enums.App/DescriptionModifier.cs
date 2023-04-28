@@ -33,17 +33,12 @@ namespace ProjectFileEdit
     {
         public static string ModifyDescription(string description, FileInfo fileInfo)
         {
-            var parent = fileInfo.Directory.Parent.Parent.Parent.Parent;
+            var parent = fileInfo.Directory.Parent;
             var name = System.IO.Path.ChangeExtension(fileInfo.Name, "csproj");
             var file = parent.GetFiles(name, System.IO.SearchOption.AllDirectories).Single();
-            try
-            {
-                SetDescription(description, file.FullName);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
+
+            SetDescription(description, file.FullName);
+
             return description;
 
             static void SetDescription(string description, string projectPath)

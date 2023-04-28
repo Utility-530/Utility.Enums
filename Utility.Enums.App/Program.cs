@@ -2,6 +2,7 @@
 using System;
 using System.Linq;
 using System.Reflection;
+using Utility.Enums;
 
 namespace UtilityEnum.App
 {
@@ -18,14 +19,25 @@ namespace UtilityEnum.App
                 DescriptionModifier.EnumPredicate(),
                 appendage: " enums." + Environment.NewLine + AppendDescription);
 
+            Console.WriteLine(description);
+
+
             var dir = new System.IO.FileInfo(assembly.Location);
             var parent = dir.Directory.Parent.Parent.Parent.Parent;
             var name = System.IO.Path.ChangeExtension(dir.Name, "csproj");
             var file = parent.GetFiles(name, System.IO.SearchOption.AllDirectories).Single();
 
-            DescriptionModifier.ModifyDescription(description, file);
-
-            Console.WriteLine(description);
+            Console.WriteLine(Environment.NewLine);
+            Console.WriteLine("modifying...");
+            try
+            {
+                DescriptionModifier.ModifyDescription(description, file);
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            Console.WriteLine("completed");
             Console.ReadLine();
         }
     }
