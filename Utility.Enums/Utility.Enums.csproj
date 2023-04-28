@@ -1,32 +1,20 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-	<PropertyGroup>
-		<TargetFramework>net7.0</TargetFramework>
-		<Authors>Declan Taylor</Authors>
-		<Version>2.4.0</Version>
-		<Description>
-			AbsolutePosition, Access, AddRemove, Affinity, CaseType, CompanySuffix, Compass, Connectivity, ContractType, Country, DatabaseOperation, DataType, DateTimeType, Degree, Diagnostic, Direction, Emotion, Emotion2, Execution, Family, Female, Flux, Frequency, General, ListOrdinal, Location, Male, MarketType, MicrosoftOffice, Movement, OrderOfMagnitude, Orientation, PlaceAndMovement, Possession, PriceSide, PriceSource, ProcessState, Progress, Quality, Quantity, Quantity2, RadialDirection, Rainbow, Region, Resolution, Scale, Side, Sign, Size, Sort, Speed, Speed, Sport, Status, Switch, Tense, Threat, ThreeWayBetType, ThreeWayOutCome, TimeFraction, TimeInterval, TradeSide, TransactionSide, Urgency, Weather, YesNo enums.
-
-			Names Attribute(and helper methods) to match strings to enums and CountryInfo attribute(and helper methods) to match strings to countries and provide country information.
-		</Description>
-		<PackageProjectUrl>https://github.com/dtaylor-530/Utility.Enums</PackageProjectUrl>
-		<AssemblyVersion>2.4.0.0</AssemblyVersion>
-		<PackageTags>enum, utility</PackageTags>
-		<FileVersion>2.4.0.0</FileVersion>
-		<GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<PackageReleaseNotes>
-		</PackageReleaseNotes>
-		<PublishRepositoryUrl>true</PublishRepositoryUrl>
-		<IncludeSymbols>true</IncludeSymbols>
-		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
-	</PropertyGroup>
-
-	<ItemGroup>
-		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="Enum\" />
-	</ItemGroup>
-
+  <PropertyGroup>
+    <TargetFrameworks>net462;netstandard2.1;net7.0</TargetFrameworks>
+    <Authors>Declan Taylor</Authors>
+    <Version>3.0.0</Version>
+    <Description>AbsoluteOrder, AbsolutePosition, Access, AddRemove, Affinity, Arrangement, AssemblyType, BasicEmotion, Case, Class, CompanySuffix, Compass, Connection, Connectivity, ContractType, Country, DatabaseOperation, DataSerialisation, DateTimeType, Degree, Diagnostic, Direction, Emotion, Entities, EventType, Execution, Family, Female, Flow, Flux, Frequency, General, History, Location, Male, MarketType, MicrosoftOffice, Movement, Operation, OrderOfMagnitude, Orientation, Persistence, Place, PlaceAndMovement, Playback, Podium, Possession, PriceSide, PriceSource, ProcessState, Progress, Quality, Quantity, RadialDirection, Rainbow, Region, Resolution, Scale, Side, Sign, Size, Sort, Speed, Speed, Sport, Status, Step, Switch, Tense, Threat, ThreeWayBetType, ThreeWayOutCome, TimeFraction, TimeInterval, TradeSide, TransactionSide, Urgency, Weather, YesNo enums.
+</Description>
+    <PackageProjectUrl>https://github.com/Utility-530/Utility.Enums</PackageProjectUrl>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+    <PackageTags>enum, enums, utility</PackageTags>
+    <FileVersion>3.0.0.0</FileVersion>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReleaseNotes>
+    </PackageReleaseNotes>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
 </Project>

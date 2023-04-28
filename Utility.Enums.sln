@@ -1,13 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28803.202
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtilityEnum", "UtilityEnum\UtilityEnum.csproj", "{0D0B1364-D916-40C7-AF22-E0001B23D9B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utility.Enums", "Utility.Enums\Utility.Enums.csproj", "{0D0B1364-D916-40C7-AF22-E0001B23D9B1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtilityEnum.Test", "UtilityEnum.Test\UtilityEnum.Test.csproj", "{9FF7A1D3-1851-4B80-8419-14AEB6C52AF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utility.Enums.Test", "Utility.Enums.Test\Utility.Enums.Test.csproj", "{9FF7A1D3-1851-4B80-8419-14AEB6C52AF6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtilityEnum.App", "UtilityEnum.App\UtilityEnum.App.csproj", "{2E298923-C303-45C9-9BE3-5355B43076DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utility.Enums.App", "Utility.Enums.App\Utility.Enums.App.csproj", "{2E298923-C303-45C9-9BE3-5355B43076DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{EA4E9252-42A0-4680-A9F1-ED854FFAA888}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{56880EA1-091F-4EA8-9B6A-BDF764C19881}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility.Enums.Helpers", "Utility.Enums.Helpers\Utility.Enums.Helpers.csproj", "{444F3DCA-3175-4D34-8DAE-E52BE274891F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,9 +33,17 @@ Global
 		{2E298923-C303-45C9-9BE3-5355B43076DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E298923-C303-45C9-9BE3-5355B43076DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E298923-C303-45C9-9BE3-5355B43076DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{444F3DCA-3175-4D34-8DAE-E52BE274891F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{444F3DCA-3175-4D34-8DAE-E52BE274891F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{444F3DCA-3175-4D34-8DAE-E52BE274891F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{444F3DCA-3175-4D34-8DAE-E52BE274891F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9FF7A1D3-1851-4B80-8419-14AEB6C52AF6} = {56880EA1-091F-4EA8-9B6A-BDF764C19881}
+		{2E298923-C303-45C9-9BE3-5355B43076DF} = {EA4E9252-42A0-4680-A9F1-ED854FFAA888}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D3BC6E48-4836-47DB-9969-EF74937B1009}
