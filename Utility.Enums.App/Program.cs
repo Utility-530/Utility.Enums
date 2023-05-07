@@ -22,6 +22,15 @@ namespace UtilityEnum.App
             Console.WriteLine(description);
 
 
+            //var lineSeparated = DescriptionCreator.CreateForMarkdown(
+            //    assembly,
+            //    DescriptionModifier.EnumPredicate(),
+            //    appendage: " enums." + Environment.NewLine + AppendDescription);
+            //Console.WriteLine(lineSeparated);
+            
+            //Console.ReadLine();
+
+
             var dir = new System.IO.FileInfo(assembly.Location);
             var parent = dir.Directory.Parent.Parent.Parent.Parent;
             var name = System.IO.Path.ChangeExtension(dir.Name, "csproj");

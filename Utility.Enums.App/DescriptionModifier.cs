@@ -27,6 +27,23 @@ namespace ProjectFileEdit
 
             return stringBuilder.ToString();
         }
+
+        public static string CreateForMarkdown(Assembly assembly, Predicate<Type>? predicate = null, string? prependage = null, string? appendage = null)
+        {
+            var stringBuilder = new StringBuilder();
+
+            stringBuilder.Append(prependage);
+
+            foreach (Type aType in assembly.GetTypes().Where(x => predicate?.Invoke(x) != false).OrderBy(a => a.Name))
+            {
+                stringBuilder.Append("- " +aType.Name + Environment.NewLine);
+            }
+
+            stringBuilder.Remove(stringBuilder.Length - 2, 2);
+            stringBuilder.Append(Environment.NewLine + appendage);
+
+            return stringBuilder.ToString();
+        }
     }
 
     public class DescriptionModifier
