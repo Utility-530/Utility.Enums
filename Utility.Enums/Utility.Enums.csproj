@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net462;netstandard2.1;net7.0</TargetFrameworks>
+    <TargetFrameworks>net7.0</TargetFrameworks>
     <Authors>Declan Taylor</Authors>
     <Version>3.0.0</Version>
     <Description>AbsoluteOrder, AbsolutePosition, Access, AddRemove, Affinity, Arrangement, AssemblyType, BasicEmotion, Case, Class, CompanySuffix, Compass, Connection, Connectivity, ContractType, Country, DatabaseOperation, DataSerialisation, DateTimeType, Degree, Diagnostic, Direction, Emotion, Entities, EventType, Execution, Family, Female, Flow, Flux, Frequency, General, History, Location, Male, MarketType, MicrosoftOffice, Movement, Operation, OrderOfMagnitude, Orientation, Persistence, Place, PlaceAndMovement, Playback, Podium, Possession, PriceSide, PriceSource, ProcessState, Progress, Quality, Quantity, RadialDirection, Rainbow, Region, Resolution, Scale, Side, Sign, Size, Sort, Speed, Speed, Sport, Status, Step, Switch, Tense, Threat, ThreeWayBetType, ThreeWayOutCome, TimeFraction, TimeInterval, TradeSide, TransactionSide, Urgency, Weather, YesNo enums.
@@ -11,8 +11,7 @@
     <FileVersion>3.0.0.0</FileVersion>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageReleaseNotes>
-    </PackageReleaseNotes>
+    <PackageReleaseNotes>    </PackageReleaseNotes>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
