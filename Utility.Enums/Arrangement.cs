@@ -2,6 +2,6 @@
 {
     public enum Arrangement
     {
-        Stacked, Wrapped, Uniform, Custom
+        Stacked, Wrapped, Uniform, Custom, UniformStack, Dock
     }
 }
