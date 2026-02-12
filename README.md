@@ -1,6 +1,9 @@
 [![NuGet version (Newtonsoft.Json.Bson)](https://img.shields.io/nuget/v/Utility.Enums)](https://www.nuget.org/packages/Utility.Enums/)
+![.NET 2](https://img.shields.io/badge/.NET-2.0-blue)
 
 # Utility Enums
+
+*Enums by name*
 
 - AbsoluteOrder
 - AbsolutePosition
