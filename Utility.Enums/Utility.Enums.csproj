@@ -4,35 +4,32 @@
 	  <Nullable>enable</Nullable>
 	  <LangVersion>latest</LangVersion>
     <Authors>Declan Taylor</Authors>
-    <Version>4.0.0</Version>
+    <Version>5.0.1</Version>
 	  <Description>
 		  AbsoluteOrder, AbsolutePosition, Access, AddRemove, Affinity, AndOr, Arrangement, AssemblyType, BasicEmotion, Case, Class, Colour, CompanySuffix, Compass, Connection, Connectivity, ContractType, Country, DatabaseOperation, DataSerialisation, DateTimeType, Degree, Diagnostic, Direction, Emotion, Entities, EventType, Execution, Family, Female, Flow, Flux, Frequency, General, History, Location, Male, MarketType, MicrosoftOffice, Movement, NSelector, Operation, OptionSelector, OrderOfMagnitude, Orientation, Persistence, Place, PlaceAndMovement, Playback, Podium, Position, Position2D, Position3D, Possession, PriceSide, PriceSource, ProcessState, Progress, Quality, Quantifier, Quantity, RadialDirection, Rainbow, Region, Relation, Resolution, Scale, Side, Sign, Size, Sort, Speed, Speed, Sport, Status, Step, Switch, Tense, Threat, ThreeWayBetType, ThreeWayOutCome, TimeFraction, TimeInterval, TradeSide, TransactionSide, Urgency, Visibility, Weather, XDirection, XMovement, XYDirection, XYMovement, XYZMovement, XZDirection, XZMovement, YDirection, YesNo, YMovement, YZDirection, YZMovement, ZDirection, ZMovement
 	  </Description>
     <PackageProjectUrl>https://github.com/Utility-530/Utility.Enums</PackageProjectUrl>
-    <AssemblyVersion>4.0.0.0</AssemblyVersion>
+    <AssemblyVersion>5.0.1</AssemblyVersion>
     <PackageTags>enum, enums, utility</PackageTags>
-    <FileVersion>4.0.0.0</FileVersion>
+    <FileVersion>5.0.1</FileVersion>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReleaseNotes>    more enums</PackageReleaseNotes>
-    <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    <PackageIcon>Icons\utility_enums.png</PackageIcon>
-    <ApplicationIcon>Icons\utility_enums.ico</ApplicationIcon>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
   <ItemGroup>
-    <Content Include="Icons\utility_enums.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Update="Icons\utility_enums.ico">
+    <None Include="..\icon.png">
       <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
+      <PackagePath></PackagePath>
     </None>
-    <None Update="Icons\utility_enums.png">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
+
+  <None Include="..\README.md">
+    <Pack>True</Pack>
+    <PackagePath>\</PackagePath>
+  </None>
+    </ItemGroup>
 </Project>
