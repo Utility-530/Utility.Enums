@@ -1,4 +1,4 @@
-﻿namespace Utility.Entities
+namespace Utility.Enums
 {
     public enum AssetType
     {
