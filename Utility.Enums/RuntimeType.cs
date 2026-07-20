@@ -1,6 +1,3 @@
-﻿using System;
-using System.Collections.Generic;
-
 namespace Utility.Enums
 {
     public enum RuntimeType
@@ -83,5 +80,4 @@ namespace Utility.Enums
             throw new ArgumentException($"Type '{type.Name}' is not supported.");
         }
     }
-
 }

@@ -1,5 +1,3 @@
-﻿using System;
-
 namespace Utility.Enums
 {
     [AttributeUsage(AttributeTargets.Field, Inherited = false, AllowMultiple = false)]

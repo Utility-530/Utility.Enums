@@ -1,5 +1,3 @@
-﻿using System;
-
 namespace Utility.Enums.Attributes
 {
     [AttributeUsage(AttributeTargets.Field)]

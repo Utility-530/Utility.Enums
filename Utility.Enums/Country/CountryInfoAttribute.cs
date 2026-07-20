@@ -1,5 +1,3 @@
-﻿using System;
-
 namespace Utility.Enums
 {
     public class CountryInfoAttribute : Attribute

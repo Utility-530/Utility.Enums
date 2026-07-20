@@ -1,5 +1,3 @@
-﻿using System.ComponentModel;
-
 namespace Utility.Enums
 {
     public enum Sport : byte

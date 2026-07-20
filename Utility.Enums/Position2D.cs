@@ -1,4 +1,4 @@
-﻿namespace Utility.Enums
+namespace Utility.Enums
 {
     /// <summary>
     /// <a href="https://en.wikipedia.org/wiki/Relative_direction"></a>
@@ -12,6 +12,7 @@
         Right = 2,
         Top = 4,
         Bottom = 8,
-        All = Left | Right | Top | Bottom
+        Center = 16,
+        All = Left | Right | Top | Bottom | Center,
     }
 }

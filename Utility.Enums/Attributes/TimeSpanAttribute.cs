@@ -1,5 +1,3 @@
-using System;
-
 namespace Utility.Enums.Attributes
 {
     public class TimeSpanAttribute(string name, double interval) : Attribute
