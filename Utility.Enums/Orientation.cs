@@ -1,9 +1,12 @@
-﻿namespace Utility.Enums
+namespace Utility.Enums
 {
+    [Flags]
     public enum Orientation : byte
     {
         None,
         Horizontal = 1,
-        Vertical
+        Vertical = 2,
+
+        Both = Horizontal | Vertical,
     }
 }
