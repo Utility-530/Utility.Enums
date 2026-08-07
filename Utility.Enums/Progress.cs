@@ -1,12 +1,13 @@
-﻿namespace Utility.Enums
+namespace Utility.Enums
 {
     public enum Progress
     {
-        UnStarted,
+        Unstarted,
         Started = 1,
-        InDeterminate,
+        Indeterminate,
         HalfWay,
         NearlyThere,
         Finished,
+        Failed,
     }
 }
