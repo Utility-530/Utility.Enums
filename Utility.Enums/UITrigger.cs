@@ -15,7 +15,7 @@ public enum UITrigger
     MouseLeave,
     MouseMove,
     MouseNearby,
-
+    MouseLeftDown,
     Click,
     DoubleClick,
 
@@ -40,5 +40,6 @@ public enum UITrigger
     Dragging,
     DragCompleted,
 
-    Custom
+    Custom,
+
 }
