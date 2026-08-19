@@ -13,7 +13,7 @@ namespace Utility.Enums
         Bottom = 1 << 5,
         BottomLeft = 1 << 6,
         Left = 1 << 7,
-        Middle = 1 << 8,
+        Center = 1 << 8,
 
         TopRow = TopLeft | Top | TopRight,
         BottomRow = BottomLeft | Bottom | BottomRight,
@@ -23,6 +23,6 @@ namespace Utility.Enums
         Horizontal = Left | Right,
         Vertical = Top | Bottom,
 
-        All = TopRow | BottomRow | Left | Right | Middle
+        All = TopRow | BottomRow | Left | Right | Center
     }
 }
