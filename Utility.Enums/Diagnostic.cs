@@ -1,4 +1,4 @@
-﻿namespace Utility.Enums
+namespace Utility.Enums
 {
     public enum Diagnostic : byte
     {
@@ -7,6 +7,7 @@
         Information,
         Warning,
         Error,
-        Fatal
+        Fatal,
+        Database = 1,
     }
 }
